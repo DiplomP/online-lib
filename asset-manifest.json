@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/online-lib/static/css/main.382d9181.css",
+    "main.js": "/online-lib/static/js/main.f9d2a25d.js",
+    "static/js/787.96a7194a.chunk.js": "/online-lib/static/js/787.96a7194a.chunk.js",
+    "static/media/book.jpg": "/online-lib/static/media/book.c77d6ea8669139a80b9d.jpg",
+    "static/media/contentimg3.jpg": "/online-lib/static/media/contentimg3.ee66f7f4dbe84af91fce.jpg",
+    "static/media/contentimg4.jpg": "/online-lib/static/media/contentimg4.69362228db9d57da5240.jpg",
+    "static/media/contentimg2.jpg": "/online-lib/static/media/contentimg2.b11e884a86889d1f7b82.jpg",
+    "static/media/contentimg1.jpg": "/online-lib/static/media/contentimg1.e0aba1df7af83c32f7db.jpg",
+    "index.html": "/online-lib/index.html",
+    "main.382d9181.css.map": "/online-lib/static/css/main.382d9181.css.map",
+    "main.f9d2a25d.js.map": "/online-lib/static/js/main.f9d2a25d.js.map",
+    "787.96a7194a.chunk.js.map": "/online-lib/static/js/787.96a7194a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.382d9181.css",
+    "static/js/main.f9d2a25d.js"
+  ]
+}
