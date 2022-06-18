@@ -1,0 +1,73 @@
+
+
+body {
+  display: grid;
+  font-family: 'Playball', cursive;
+  font-size: 24px;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+  min-height: 1080px;
+}
+
+.container{
+  display: grid;
+  grid-template-rows: 10% 74% 10%;
+  grid-gap: 3%;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.header{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  background-color: #fff;
+  border: 1px solid #e8eeff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.footer{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  border-radius: 10px;
+  bottom: 0;
+  top: 0;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 15% 82%; 
+  grid-gap: 3%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dashboard{
+  display: grid;
+  max-width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid #e8eeff;
+  border-radius: 10px;
+}
+
+.sidebar{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  color: white;
+  justify-content: center;
+  border: 1px solid #e8eeff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgb(222, 193, 251);
+}

@@ -1,0 +1,84 @@
+.h1-about{
+	display: grid;
+	justify-content: center;
+	color: #404d61;
+}
+
+.material-about{
+	margin-left: 20%;
+	align-self: center;
+	align-items: center;
+	color: #000;
+	height: 85%;
+	display: grid;
+	grid-template-columns: 35% 35%;
+	grid-template-rows: 50% 50%;
+}
+
+.content-about {
+	background: url("https://avatars.mds.yandex.net/i?id=046288a3ab58e0366a9d6bbd4f313817-5876583-images-thumbs&n=13&exp=1") center no-repeat;
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	width: 97%;
+	height: 97%;
+	background-color: white;
+	cursor: pointer;
+
+}
+
+.content-about-2 {
+	background: url("https://yandex-images.clstorage.net/yQe5Z2198/5355cc9vd5jD/3b86lD3rvUUcwMeItAo3hj_PJcsSEwCfNwhp5fFiMuqcOAzWwkXkiItdivfldK1BkqIHO9NQ1dSEieYu3rIMNomr-yXZGx1VHPAXGQSaRza_P6WKUmMlGka4aWFx4kbujMh_AHVno6ss7r1Qp6ZZ9IdX13_SJSRXV0kzODoUmtLcvgmmKKsslQoSZrtXaVYSXF_1L4KmQj7jSJmghXKnvZlN_HCEBdIITX3fo7fEalR2lVa99LaXNcSdw0qJRBsBn2055bkobca6kUbqZTg3k00cBl-ThoNvsDjLcrdQth0oPa5xJRYg2X6tH1AHFDpUJtTErmRUxHb378B6-oQo095eKoVb6XyXapJn6KQb93HNvGUM4feDrNNKu0FmINW_OC5c41bnQ-p8PD0BxWYq9Rfnpq811gZWR74TKAoGC4P8Xcl0m-u-VGizlDr36IVyjQ32D6BUoExSGjuSRyKWT6s8fAKE5ZPaHTz9kAUWOsTlRKdt1VWlpoRfgavKFpjQv6_4xknIDFZakkUI52tm4J9dNn_ANjDOMJipQpTCRuzbzi4yhDYT2k0NrGGVRzoWtMf2XmT1dKRXPSH7KKUZUf1vC0SJaV4EWGAGmPa6dWB8jNStwceA3lCYi9BkwlYd-E8eopZV88oPXL7glHRLVgfXdKxGVRXXhE0DqwrXGQLNnflF6yr_VSqSx2kU6wdRf21XHHAmAo-yCMlg5pDl3TmdXnF29fNYfb3dMGWkOjZGh2eepudUtSXfI7vbdanzXe26JAtqzcYLQmbqhmslkn-flw_CpXLts-grIVdjRm6rLv5RBlVRWG0_zxHVVGgXx4VkjuVnx7Q1rjO4y9X4I42vCTe6e61lGNFEqCQJdIH8DgYdkrbSntCraYMnMTU8q25OcCeGI8p-zK8DpcfLJzS1tjwU1uS3hy2ya4mlOfONzjol6JkudwjzpynV6PWDj182P2AUQUzQ6jgyw") center no-repeat;
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	width: 97%;
+	height: 97%;
+	cursor: pointer;
+}
+
+.content-about-3 {
+	background: url("https://avatars.mds.yandex.net/i?id=cbbd7118b146e4dbf6bfc610aed8e05a-5251249-images-thumbs&n=13&exp=1") center no-repeat;
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	width: 97%;
+	height: 97%;
+	cursor: pointer;
+
+}
+
+.content-about-4 {
+	background: url("https://avatars.mds.yandex.net/i?id=c52bec214c62cd7137984f1ba3ea71da-6974550-images-thumbs&n=13&exp=1") center no-repeat;
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	width: 97%;
+	height: 97%;
+	cursor: pointer;
+
+}
+
+.text{
+	color: #ffffff;
+	border: 1px solid;
+	margin-left: 36%;
+	width: 30%;
+	margin-top: 60%;
+}
+
+.text2{
+	color: #ffffff;
+	border: 1px solid;
+	margin-left: 34%;
+	width: 30%;
+	margin-top: 55%;
+}

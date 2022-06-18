@@ -1,0 +1,81 @@
+.react-content{
+	display: grid;
+	background: url("./contentimg4.jpg");
+	grid-template-rows: 10% 90%;
+	max-height: 95%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.react-content-1{
+	display: grid;
+	background-color: white;
+	grid-template-rows: 10% 90%;
+	max-height: 95%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+
+.h1-react{
+	display: grid;
+	justify-content: center;
+	color: #404d61;
+}
+
+.links-react{
+	text-decoration: none; 
+	color: #404d61;
+	align-items: center;
+	justify-items: center;
+	width: 90%;
+	height: 80%;
+	background: transparent;
+    border-radius: 10px;
+	display: grid;
+	transition: background .3s;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.links-react:hover{
+	color: #fff;
+	background-color: rgb(170, 95, 241);
+	transition: background .3s;
+}
+
+.links-react-active{
+	text-decoration: none;
+	background: #4CAF50;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+    border-radius: 10px;
+	display: grid;
+	transition: background .3s;
+}
+
+.pages-span{
+	align-self: center;
+	justify-self: center;
+	width: 100%;
+}
+
+.material-react{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 10% 90%;
+	padding: 15px;
+	justify-items: center;
+}
+
+.image-react{
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	/* grid-row-start: 1;
+	grid-row-end: 4; */
+	align-self: center;
+	width: 800px;
+	
+}

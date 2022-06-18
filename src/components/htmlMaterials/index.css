@@ -1,0 +1,181 @@
+.html-content{
+	display: grid;
+	grid-template-rows: 10% 84%;
+}
+
+.html-content-activ{
+	display: grid;
+	background-color: white;
+	grid-template-rows: 10% 90%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.html-content-test{
+	display: grid;
+	grid-template-rows: 10% 84%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);;
+}
+
+.h3-html{
+	display: grid;
+	justify-content: center;
+	color: #404d61;
+}
+
+.material-lections-html{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 8% 8% 84%;
+	justify-content: center;
+	align-content: center;
+	padding: 0px 15px;
+}
+
+.lections-span-html{
+	cursor: pointer;
+	font-size: 20px;
+	margin-left: 25px;
+}
+
+.lections-span-html-active{
+	cursor: pointer;
+	font-size: 100%;
+	color: rgb(170, 95, 241);
+}
+
+.material-video-html-html{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr;
+	grid-template-rows: 15% 15% 70%;
+	justify-content: center;
+	align-content: center;
+	padding: 0px 15px;
+}
+
+.lections-span-video-html{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.lections-span-video-html-active{
+	font-size: 100%;
+	color: rgb(170, 95, 241);
+}
+
+.material-practica-html{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 8% 8% 84%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+}
+
+.lections-pract{
+	cursor: pointer;
+	font-size: 22px;
+	margin-left: 25px;
+}
+
+.lections-pract-active{
+	color: rgb(170, 95, 241);
+	font-size: 90%;
+}
+
+.lections-test-active{
+	font-size: 110%;
+	text-align: center;
+	padding-left: 5%;
+	visibility: hidden;
+}
+
+.test-span-html{
+	cursor: pointer;
+	font-size: 110%;
+	text-align: center;
+	display: grid;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.pract{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	width: 100%;
+}
+
+.material-Presentations-html{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 15% 15% 70%;
+	justify-items: center;
+	justify-content: end;
+	padding: 0px 15px;
+}
+
+.Presentations-span{
+	cursor: pointer;
+	font-size: 20px;
+	margin-left: 25px;
+}
+
+.none-html{
+	color: transparent;
+	background-color: transparent;
+}
+
+.lect{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	width: 100%;
+}
+
+.default-video{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 12;
+	width: 100%;
+}
+
+.material-test-html{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10% 90%;
+	justify-items: center;
+	justify-content: end;
+	padding: 0px 15px;
+}
+
+.h1-html-test{
+	justify-self: center;
+	background-color: white;
+}
+
+.test-html{
+	height: 610px;
+	width: 100%;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.default-test{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 12;
+	width: 100%;
+}
+
+.none-test-html{
+	visibility: hidden;
+}

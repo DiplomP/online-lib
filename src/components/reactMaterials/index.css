@@ -1,0 +1,153 @@
+.h1-react-lections{
+	text-align: center;
+}
+
+.react-content-test{
+	display: grid;
+	grid-template-rows: 10% 84%;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.material-lections-react{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 10% 10% 80%;
+	justify-items: center;
+	justify-content: center;
+
+}
+
+.material-test-react{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 5% 5% 90%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+	height: 100%;
+}
+
+.material-practica-react{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 5% 5% 90%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+}
+
+.material-video-react{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 15% 15% 70%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+}
+
+.none{
+	color: transparent;
+	background-color: transparent;
+}
+
+.lections-react{
+	cursor: pointer;
+	font-size: 22px;
+	margin-left: 20px;
+}
+
+.lections-react{
+	cursor: pointer;
+	font-size: 22px;
+	margin-left: 20px;
+}
+
+.test-react{
+	cursor: pointer;
+	font-size: 22px;
+	text-align: center;
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+
+.test-react-active{
+	cursor: pointer;
+	visibility: hidden;
+	text-align: center;
+	font-size: 22px;
+	margin-left: 20px;
+}
+
+
+.lections-span-react{
+	cursor: pointer;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+.lections-span-react-active{
+	cursor: pointer;
+	color: rgb(170, 95, 241);
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+.lections-span-video-react{
+	cursor: pointer;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+.lections-span-video-react-active{
+	cursor: pointer;
+	font-size: 18px;
+	margin-left: 20px;
+	color: rgb(170, 95, 241);
+}
+
+
+.lections-span-pract-react{
+	cursor: pointer;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.lections-span-pract-react-active{
+	cursor: pointer;
+	font-size: 20px;
+	color: rgb(170, 95, 241);
+	margin-left: 20px;
+}
+
+
+.default{
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	width: 100%;
+}
+
+.default-div{
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	width: 100%;
+}
+
+.default-react{
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	width: 100%;
+} 
+
+.test-react{
+	height: 90%;
+	width: 100%;
+}

@@ -1,0 +1,208 @@
+.js-content-lections{
+	display: grid;
+	background: url("../jsPage/contentimg3.jpg");
+	grid-template-rows: 10% 90%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.js-content-lections-1{
+	display: grid;
+	background-color: white;
+	grid-template-rows: 10% 90%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.js-content-test{
+	display: grid;
+	grid-template-rows: 10% 84%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);;
+}
+
+.h1-js-lections{
+	display: grid;
+	justify-content: center;
+	color: #404d61;
+}
+
+.material-practica-js{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 5%;
+	justify-items: center;
+	justify-content: center;
+}
+
+
+.lections-span-video{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 10% 10% 80%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+}
+
+.material-lections-js{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 15% 84%;
+	grid-gap: 1%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+}
+
+.Presentations-span{
+	cursor: pointer;
+	font-size: 14px;
+	margin-left: 25px;
+}
+
+.test-span-js-active{
+	font-size: 110%;
+	text-align: center;
+	padding-left: 5%;
+	visibility: hidden;
+}
+
+.lections-span-js{
+	cursor: pointer;
+	font-size: 110%;
+}
+
+.lections-span-js-active{
+	cursor: pointer;
+	font-size: 100%;
+	color: rgb(170, 95, 241);
+}
+
+.lections-span-video-js{
+	cursor: pointer;
+	font-size: 85%;
+}
+
+.lections-span-video-js-active{
+	font-size: 100%;
+	color: rgb(170, 95, 241);
+}
+
+.lections-span-pract-js{
+	cursor: pointer;
+	font-size: 110%;
+}
+
+.lections-span-pract-js-active{
+	color: rgb(170, 95, 241);
+	font-size: 110%;
+}
+
+.default-lections{
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	width: 100%;
+}
+
+.default-lections-1{
+	width: 100%;
+}
+
+.material-test-js{
+	display: grid;
+	grid-template-rows: 5% 5% 90%;
+	grid-template-columns: 1fr;
+}
+
+.h1-js-test{
+	display: grid;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	justify-self: center;
+	margin: 0;
+}
+
+.test-span-js{
+	cursor: pointer;
+	font-size: 110%;
+	text-align: center;
+	display: grid;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.default-test{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	width: 100%;
+}
+
+.default-test-js{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	width: 100%;
+}
+
+.none-test-js{
+	visibility: hidden;
+}
+
+.test-active-js{
+	padding: 0;
+	margin: 0;
+}
+
+.video-js-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.h1-js-lections{
+	display: grid;
+	justify-content: center;
+	color: #404d61;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	padding: 0;
+	margin: 0;
+}
+
+.js-content-video-active{
+	display: grid;
+	margin-top: 2%;
+	grid-template-rows: 50% 50%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	background-color: white;
+	grid-template-rows: 10% 90%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.none{
+	color: transparent;
+	background-color: transparent;
+}
+
+.default-js{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 10;
+	width: 100%;
+}
+
+.test-js{
+	height: 90%;
+	width: 100%;
+}

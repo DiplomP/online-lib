@@ -1,0 +1,77 @@
+.js-content{
+	display: grid;
+	grid-template-rows: 10% 90%;
+	background: url("./contentimg3.jpg");
+}
+
+.h1-js{
+	display: grid;
+	justify-content: center;
+	color: #404d61;
+}
+
+.links-js{
+	text-decoration: none; 
+	color: #404d61;
+	align-items: center;
+	justify-items: center;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+    border-radius: 10px;
+	display: grid;
+	transition: 0.72s;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.links-js:hover{
+	color: #fff;
+	background-color: rgb(170, 95, 241);
+	transition: 0.72s;
+}
+
+.links-js-active{
+	text-decoration: none;
+	background: #4CAF50;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+    border-radius: 10px;
+	display: grid;
+	transition: background .3s;
+}
+
+.pages-span{
+	align-self: center;
+	justify-self: center;
+	width: 100%;
+}
+
+.material-js-home{
+	display: grid;
+	grid-template-columns: 19% 19% 19% 19% 19%;
+	grid-gap: 1%;
+	grid-template-rows: 10% 90%;
+	padding: 15px;
+	justify-items: center;
+}
+
+.material-js{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 10% 90%;
+	padding: 15px;
+	justify-items: center;
+}
+
+.image-js{
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	/* grid-row-start: 1;
+	grid-row-end: 4; */
+	align-self: center;
+	width: 800px;
+	
+}

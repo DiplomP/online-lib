@@ -1,0 +1,159 @@
+ .css-content{
+	display: grid;
+	grid-template-rows: 10% 90%;
+}
+
+.css-content-1{
+	display: grid;
+	background-color: white;
+	grid-template-rows: 10% 90%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.css-content-video{
+	display: grid;
+	grid-template-rows: 10% 90%;
+	background-color: white;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.css-content-test{
+	display: grid;
+	grid-template-rows: 10% 90%;
+	background-color: rgb(255, 255, 255);
+}
+
+.h1-css{
+	display: grid;
+	justify-content: center;
+	color: #404d61;
+}
+
+.material-lections-css{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 5% 8% 90%;
+	grid-gap: 1%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+}
+
+.material-test-css{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 3% 3% 94%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+}
+
+.material-practica-css{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 9% 9% 82%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+}
+
+.material-video-css{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 15% 15% 70%;
+	justify-items: center;
+	justify-content: center;
+	padding: 0px 15px;
+}
+
+.none{
+	color: transparent;
+	background-color: transparent;
+}
+
+.lections-span-pract-css{
+	cursor: pointer;
+	font-size: 110%;
+	margin-left: 15px;
+}
+
+.lections-span-pract-css-active{
+	color: rgb(170, 95, 241);
+	font-size: 100%;
+}
+
+.lections-span-css{
+	cursor: pointer;
+	font-size: 26px;
+	margin-left: 15px;
+}
+
+.test-span-css{
+	cursor: pointer;
+	font-size: 110%;
+	text-align: center;
+	display: grid;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.test-span-css-active{
+	font-size: 110%;
+	text-align: center;
+	padding-left: 5%;
+	visibility: hidden;
+}
+
+.lections-span-css-active{
+	color: rgb(170, 95, 241);
+	font-size: 120%;
+}
+
+.lections-span-video-css{
+	cursor: pointer;
+	font-size: 110%;
+	margin-left: 15px;
+}
+
+.lections-span-video-css-active{
+	color: rgb(170, 95, 241);
+	font-size: 100%;
+}
+
+.default-video{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 10;
+	width: 100%;
+} 
+
+.default-pract{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	width: 100%;
+}
+
+.default-css{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 8;
+	width: 100%;
+}
+
+.default-test{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	width: 100%;
+}
+
+.none-test-css{
+	visibility: hidden;
+}
